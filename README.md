@@ -78,4 +78,114 @@ xlim([-2 1]);
 
 ------------------------------------------------------------------------------------------------------
 
+-EXERCITIUL 3:
 
+Pentru rezolutie temporara de 2ms:
+
+F=40;
+t=0:0.002:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-1 1]);
+
+Pentru rezolutie temporara de 2ms:
+
+a)
+
+F=40;
+t=0:0.002:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-3,-1, 1, 3]);
+
+b)
+
+F=40;
+t=0:0.002:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-3,-1, 1, 3]);
+
+c)
+
+F=40;
+t=0:0.002:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-5,-3,-1,1,3,5]);
+
+d)
+
+F=40;
+t=0:0.002:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-7,-5,-3,-1,1,3,5,7]);
+
+Pentru rezolutie temporara de 20ms:
+
+a)
+
+F=40;
+t=0:0.02:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-3,-1, 1, 3]);
+
+b)
+
+F=40;
+t=0:0.02:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-3,-1, 1, 3]);
+
+c)
+
+F=40;
+t=0:0.02:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-5,-3,-1,1,3,5]);
+
+d)
+
+F=40;
+t=0:0.02:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-7,-5,-3,-1,1,3,5,7]);
+
+Pentru rezolutie temporara de 200ms:
+
+a)
+
+F=40;
+t=0:0.2:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-3,-1, 1, 3]);
+
+b)
+
+F=40;
+t=0:0.2:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-3,-1, 1, 3]);
+
+c)
+
+F=40;
+t=0:0.2:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-5,-3,-1,1,3,5]);
+
+d)
+
+F=40;
+t=0:0.2:0.25;
+s=square(F*t);
+plot(t,s,'.-'), xlabel('Timp[s]'), xlabel('Tensiune[V]'), grid
+xlim([-7,-5,-3,-1,1,3,5,7]);
